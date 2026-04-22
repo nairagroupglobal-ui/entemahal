@@ -1,0 +1,326 @@
+Design a complete enterprise-grade Masjid ERP UI/UX system in Figma.
+
+This product must match:
+- Zoho-level polish
+- Tally-level financial clarity
+- ERPNext-level modular structure
+
+Product Type:
+A multi-tenant mosque ERP system managing members, households, donations, funds, accounting, events, announcements, staff, assets, and reports.
+
+Design Requirements:
+- Desktop-first ERP with mobile-responsive layouts
+- Use 8px spacing system
+- Minimum touch target: 48px
+- Grid: 12-column layout (max width 1440px)
+- Sidebar width: 240px (collapsible)
+- Topbar height: 64px
+- Table row height: 48–56px
+- Card padding: 16–24px
+- Border radius: 8–12px
+
+Design Style:
+- Clean enterprise UI (NOT startup style)
+- Calm, trustworthy, professional
+- Use green/teal/blue primary palette
+- Neutral backgrounds (#F5F7FA style)
+- Subtle shadows (elevation system)
+- No decorative overload
+
+Typography:
+- Strong hierarchy:
+  - Page title (24–28px)
+  - Section title (18–20px)
+  - Body (14–16px)
+  - Caption (12px)
+- Financial numbers should be bold and prominent
+
+Core Components:
+- Sidebar navigation
+- Topbar (search, notifications, profile)
+- KPI cards
+- Data tables (sorting, filtering, pagination)
+- Drawer panels (right-side)
+- Modal forms
+- Tabs
+- Status chips
+- Timeline / activity feed
+- Charts (bar, line, donut)
+- Receipt preview UI
+- Role/permission matrix
+- Calendar view
+- Notification center
+
+States:
+- Loading skeleton
+- Empty state with CTA
+- Error state
+- Success confirmation
+- Disabled states
+- Permission restricted states
+
+Interactions:
+- Table row → opens detail drawer
+- Primary CTA always visible
+- Forms open in modal/drawer
+- Confirmations for finance actions
+- Toast notifications after actions
+- Real-time updates for dashboard
+
+Deliver:
+- Design system (colors, typography, spacing, components)
+- Full desktop screens
+- Mobile responsive screens
+- Interactive prototype flows
+
+Do NOT create marketing UI. This must feel like a serious ERP used daily by mosque admins and accountants.
+
+Design an enterprise ERP dashboard for a Masjid management system.
+
+Layout:
+- KPI cards (top row)
+- Charts (middle)
+- Activity + transactions (bottom)
+
+Include:
+- Total households
+- Total members
+- Donations today
+- Monthly donations
+- Fund balances
+- Expenses
+- Upcoming events
+- Recent announcements
+
+Components:
+- KPI cards
+- Line chart (donations trend)
+- Donut chart (fund distribution)
+- Table (recent transactions)
+- Activity feed
+
+Interactions:
+- Click KPI → navigate to module
+- Click transaction → open drawer
+- Quick actions:
+  - Add donation
+  - Add member
+  - Create event
+
+Style:
+Dense, clean, highly readable
+
+Design Members and Households module.
+
+Screens:
+1. Household List
+2. Household Detail
+3. Members List
+4. Member Profile
+
+Layout:
+- Table view with filters
+- Right-side detail drawer
+
+Components:
+- Table (name, phone, role, status)
+- Filter chips
+- Search bar
+- Status badges
+- Tabs (Profile, Donations, Events)
+
+Member Profile:
+- Personal info
+- Household info
+- Donation history
+- Activity timeline
+
+Actions:
+- Add/Edit/Delete
+- Assign role
+- Activate/Deactivate
+
+UX:
+- Fast scanning
+- Bulk actions
+- Minimal clicks
+
+Design Donations module with receipt workflow.
+
+Screens:
+1. Donations List
+2. Add Donation Form
+3. Receipt Preview
+
+Components:
+- Table (receipt no, member, amount, type, date)
+- Filters (date, type, fund)
+- Modal form
+- Receipt preview panel
+
+Form Fields:
+- Member
+- Amount
+- Fund
+- Type (Zakat, Sadaqah)
+- Payment method
+
+Receipt UI:
+- Clean printable layout
+- Mosque name
+- Amount highlighted
+- Receipt number
+- Date
+
+Interactions:
+- Submit → generate receipt
+- View/download PDF
+- Confirmation dialog before save
+
+Design Finance module.
+
+Screens:
+1. Funds Overview
+2. Transactions (Ledger)
+3. Expenses
+
+Funds:
+- Card view with balances
+- Fund allocation
+
+Ledger:
+- Table:
+  - credit/debit
+  - fund
+  - amount
+  - reference
+- Filters and sorting
+
+Expenses:
+- Add expense form
+- Category dropdown
+- Approval state
+
+Charts:
+- Income vs expense
+- Fund distribution
+
+UX:
+- High trust
+- Financial clarity
+- Audit visibility
+
+Highlight:
+- Every transaction shows source (donation/expense)
+
+Design Events module.
+
+Screens:
+1. Events List
+2. Event Detail
+3. Attendance
+
+Components:
+- Calendar view
+- Event cards
+- RSVP list
+
+Event Detail:
+- Title
+- Description
+- Date/time
+- Attendees
+
+Interactions:
+- RSVP toggle
+- Attendance marking
+
+UX:
+- Simple and clean
+- Focus on participation
+
+Design Announcements system.
+
+Screens:
+1. Announcement List
+2. Create Announcement
+3. Notification Center
+
+Components:
+- Rich text editor
+- Target selector (all/members/staff)
+- Push toggle
+
+Notification Center:
+- Bell icon dropdown
+- Unread badge
+- Timeline list
+
+UX:
+- Quick publish
+- Clear visibility
+
+Design Settings module.
+
+Screens:
+1. Roles & Permissions
+2. Organization Settings
+
+Components:
+- Permission matrix table
+- Toggle switches
+- Role chips
+
+Roles:
+- super_admin
+- admin
+- accountant
+- staff
+- member
+
+UX:
+- Clear permissions
+- Avoid confusion
+- Show access levels visually
+
+Design mobile app UI for members.
+
+Screens:
+- Home
+- Announcements
+- Events
+- My Donations
+- Profile
+
+Navigation:
+- Bottom tab bar
+
+UX:
+- Simple
+- Fast
+- Minimal actions
+
+Focus:
+- View info
+- Download receipts
+- Stay updated
+
+Create a full design system for Masjid ERP.
+
+Include:
+- Color palette (primary, success, warning, error)
+- Typography scale
+- Spacing system (8px grid)
+- Elevation/shadows
+- Component library:
+  - buttons
+  - inputs
+  - tables
+  - cards
+  - modals
+  - drawers
+  - chips
+  - badges
+  - charts
+
+Make it scalable and consistent across desktop and mobile.
